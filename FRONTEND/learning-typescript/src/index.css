@@ -1,0 +1,77 @@
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body{
+  
+  min-width: 1000px;
+}
+.sum-content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  left: 0px;
+  top: 0px;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+.videoPlayer {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+      bottom: 0;
+      left: 0;
+}
+
+.content {
+  position: fixed;
+  top: 100px;
+  
+  color: #f1f1f1;
+  width: 100%;
+  
+}
+.hehe{
+  mix-blend-mode: multiply;
+}
+.contentBlog{
+  line-height: 28px;
+  height: 82px;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp: 3;
+}
+.nameBlog{
+  margin-bottom: 27px;
+  line-height: 37px;
+  height: 113px;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp: 3;
+}
+.content_right{
+  height: 940px;
+  background-image: url('https://res.cloudinary.com/dyraccecs/image/upload/v1669732774/985798_pejor4.png');
+  background-size: cover;
+  background-position: -1179px 0;
+  background-attachment: fixed;
+}
+.author_floor_one_right{
+  height: 600px;
+  background-image: url('https://res.cloudinary.com/dyraccecs/image/upload/v1669744262/z2391958361615_e7069a165d78aa0ec93a98358413bc27_ff81f6.jpg');
+  background-size: cover; 
+}
+.hehe{
+  mix-blend-mode: multiply;
+}
+.textcon{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
